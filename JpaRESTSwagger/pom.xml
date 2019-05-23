@@ -49,10 +49,11 @@
 		
 		<!-- Google cloud socket factory -->
 		<dependency>
-  			<groupId>com.google.cloud.sql</groupId>
-  			<artifactId>postgres-socket-factory</artifactId>
-  			<version>1.0.12</version>
+    		<groupId>com.google.cloud.sql</groupId>
+    		<artifactId>postgres-socket-factory</artifactId>
+    		<version>1.0.12</version>
 		</dependency>
+
 		
 		<!-- Swagger -->
         <dependency>
