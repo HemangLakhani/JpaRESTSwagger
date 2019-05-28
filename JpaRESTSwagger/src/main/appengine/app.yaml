@@ -1,7 +1,5 @@
 runtime: java
 env: flex
-runtime_config: 
-  jdk: openjdk
-handlers:
-- url: /.*
-  script: this field is required, but ignored
+service: employee-rest-crud
+health_check: 
+  enable_health_check: False

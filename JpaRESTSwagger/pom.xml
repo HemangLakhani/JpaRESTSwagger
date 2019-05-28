@@ -11,7 +11,8 @@
 
 	<groupId>com.boot.RESTAPP</groupId>
 	<artifactId>JpaREST</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.1</version>
+	<packaging>jar</packaging>
 	<name>JpaREST</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -99,6 +100,18 @@
    				<groupId>com.google.appengine</groupId>
    				<artifactId>appengine-maven-plugin</artifactId>
    				<version>1.9.74</version>
+   				<!-- <configuration>
+   					<version>01</version>
+     				<appId>rest-app-240820</appId>
+     				
+    			</configuration> -->
+    			<configuration>
+    			<deploy.version>1.1</deploy.version>
+     			<appId>rest-app-240820</appId>
+    			<deployables>
+      					<param>src/main/appengine/app.yaml</param>
+     			</deployables>
+     			</configuration>
 			</plugin>
 		</plugins>
 	</build>
