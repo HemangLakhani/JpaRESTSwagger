@@ -101,7 +101,8 @@
    				<artifactId>appengine-maven-plugin</artifactId>
    				<version>1.9.74</version>
    				<configuration>
-   					<version>0.0.1</version>
+   					<version>1</version>
+   					<appId>rest-app-240820</appId>
    				</configuration>
    				<!-- <configuration>
    					<version>01</version>
